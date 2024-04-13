@@ -1,0 +1,112 @@
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\Simplydatatech.dll.config
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\Simplydatatech.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\Simplydatatech.pdb
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\csc.exe
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\csc.exe.config
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\csc.rsp
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\csi.exe
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\csi.rsp
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\System.AppContext.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\System.Collections.Immutable.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\System.IO.FileSystem.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\System.Reflection.Metadata.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\vbc.exe
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\vbc.exe.config
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\vbc.rsp
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\VBCSCompiler.exe
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\roslyn\VBCSCompiler.exe.config
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\Antlr3.Runtime.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\Microsoft.Web.Infrastructure.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\Newtonsoft.Json.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\System.Web.Helpers.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\System.Web.Mvc.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\System.Web.Optimization.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\System.Web.Razor.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\System.Web.WebPages.Deployment.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\System.Web.WebPages.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\System.Web.WebPages.Razor.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\WebGrease.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\System.Web.Helpers.xml
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\System.Web.Mvc.xml
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\System.Web.Optimization.xml
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\System.Web.Razor.xml
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\System.Web.WebPages.xml
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\System.Web.WebPages.Deployment.xml
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\System.Web.WebPages.Razor.xml
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\Newtonsoft.Json.xml
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\Antlr3.Runtime.pdb
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\obj\Debug\Simplydatatech.csproj.CoreCompileInputs.cache
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\obj\Debug\Simplydatatech.csproj.CopyComplete
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\obj\Debug\Simplydatatech.dll
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\obj\Debug\Simplydatatech.pdb
+D:\Aftab\Persnal Project\Simplydatatech\Simplydatatech\Simplydatatech\obj\Debug\Simplydatatech.csproj.AssemblyReference.cache
+E:\Simplydatatech_code\Simplydatatech\bin\Simplydatatech.dll.config
+E:\Simplydatatech_code\Simplydatatech\bin\Simplydatatech.dll
+E:\Simplydatatech_code\Simplydatatech\bin\Simplydatatech.pdb
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\csc.exe
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\csc.exe.config
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\csc.rsp
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\csi.exe
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\csi.rsp
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\System.AppContext.dll
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\System.Collections.Immutable.dll
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\System.IO.FileSystem.dll
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\System.Reflection.Metadata.dll
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\vbc.exe
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\vbc.exe.config
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\vbc.rsp
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\VBCSCompiler.exe
+E:\Simplydatatech_code\Simplydatatech\bin\roslyn\VBCSCompiler.exe.config
+E:\Simplydatatech_code\Simplydatatech\bin\Antlr3.Runtime.dll
+E:\Simplydatatech_code\Simplydatatech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Simplydatatech_code\Simplydatatech\bin\Microsoft.Web.Infrastructure.dll
+E:\Simplydatatech_code\Simplydatatech\bin\Newtonsoft.Json.dll
+E:\Simplydatatech_code\Simplydatatech\bin\System.Web.Helpers.dll
+E:\Simplydatatech_code\Simplydatatech\bin\System.Web.Mvc.dll
+E:\Simplydatatech_code\Simplydatatech\bin\System.Web.Optimization.dll
+E:\Simplydatatech_code\Simplydatatech\bin\System.Web.Razor.dll
+E:\Simplydatatech_code\Simplydatatech\bin\System.Web.WebPages.Deployment.dll
+E:\Simplydatatech_code\Simplydatatech\bin\System.Web.WebPages.dll
+E:\Simplydatatech_code\Simplydatatech\bin\System.Web.WebPages.Razor.dll
+E:\Simplydatatech_code\Simplydatatech\bin\WebGrease.dll
+E:\Simplydatatech_code\Simplydatatech\bin\System.Web.Helpers.xml
+E:\Simplydatatech_code\Simplydatatech\bin\System.Web.Mvc.xml
+E:\Simplydatatech_code\Simplydatatech\bin\System.Web.Optimization.xml
+E:\Simplydatatech_code\Simplydatatech\bin\System.Web.Razor.xml
+E:\Simplydatatech_code\Simplydatatech\bin\System.Web.WebPages.xml
+E:\Simplydatatech_code\Simplydatatech\bin\System.Web.WebPages.Deployment.xml
+E:\Simplydatatech_code\Simplydatatech\bin\System.Web.WebPages.Razor.xml
+E:\Simplydatatech_code\Simplydatatech\bin\Newtonsoft.Json.xml
+E:\Simplydatatech_code\Simplydatatech\bin\Antlr3.Runtime.pdb
+E:\Simplydatatech_code\Simplydatatech\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Simplydatatech_code\Simplydatatech\obj\Debug\Simplydatatech.csproj.AssemblyReference.cache
+E:\Simplydatatech_code\Simplydatatech\obj\Debug\Simplydatatech.csproj.CoreCompileInputs.cache
+E:\Simplydatatech_code\Simplydatatech\obj\Debug\Simplyda.69C8DC68.Up2Date
+E:\Simplydatatech_code\Simplydatatech\obj\Debug\Simplydatatech.dll
+E:\Simplydatatech_code\Simplydatatech\obj\Debug\Simplydatatech.pdb

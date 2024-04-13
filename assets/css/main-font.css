@@ -1,0 +1,90 @@
+
+        @font-face {
+            font-family: 'Roboto';
+            src: url('../fonts/Roboto-Regular_v1.woff2') format('woff2'),
+                url('../fonts/Roboto-Regular_v1.woff') format('woff');
+            font-weight: 400;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            src: url('../fonts/Roboto-Medium_v1.woff2') format('woff2'),
+                url('../fonts/Roboto-Medium_v1.woff') format('woff');
+            font-weight: 500;
+            font-display: swap;
+        }
+
+
+        :root {
+            --sub-course-sprite: url('../image/course_sprite_7.svgz');
+            --frs-sprite: url('../image/frs-sprite_4.svgz');
+            --footer-sprite: url('../image/footer_sprite.svgz');
+            --footer-telegram-sprite: url('../image/telegram_logo.svgz');
+            --home-sprite-new: url('../image/sprite_v2.svgz');
+            --mql-sprite-new: url('../image/mql-new-sprite_4.svgz');
+            --mql-new-bg: url('../image/mql-new-banner_1.jpg');
+            --dm-sprite-cal: url('../image/mql-caltech-sprite.svgz');
+            --mql-right: url('../image/image/right-mark.png');
+            --mql-linkdin: url('../image/image/linkedin-logo.png');
+            --mql-sprite-orange: url('../image/mql-caltech-sprite_3.svgz');
+            --caltech-footer-bg: url('../image/caltech-bg-footer.png');
+            --jagsom-footer-icon: url('../image/image/chat-footer-icons_v_8.svgz');
+            --mql-purdue-sprite: url('../image/mql-sprite-Purdue.svgz');
+            --spj-sprite: url('../image/mql-sprite-sp-jain-blue.svgz');
+            --wharton-sprite: url('../image/wharton.svgz');
+            --dm-sprite: url('../image/dual-master-sprite_1.svgz');
+            --wharton-play: url('../image/wharton-play-icon.svgz');
+            --propelld-excla-logo: url('../image/exclamation-mark.svgz');
+            --subdamin-sprite: url('../image/MQL-Sprite-Caltech_v2.svgz');
+            --subdomain-thank-you: url('../image/success_anim_v2.gif');
+            --iit-mobile-banner: url('../image/iit_mobile_banner_v7.jpg');
+            --iitk-tab: url('../image/iitk_tab_v_3_2.png');
+            --home-sprite: url('../image/home-page_sprite_v7.png');
+            --sub-program-fees: url('../image/IITK_Pricing_Banner.png');
+            --caltech-header-pattern: url('../image/headerpattern.svgz');
+            --mql-certificate-bg: url('../image/mql-certificates.jpg');
+            --bootcamp-sprite: url('../image/home/sprite.svgz');
+            --mql-sprite-blue: url('../image/mql-sprite-blue.svgz');
+            --mql-sprite-orange-black: url('../image/mql-sprite-orange_v2_1.svgz');
+            --umass-sprite: url('../image/mql-sprite-UMass-4.svgz');
+            --mql-umass-success: url('../image/umass-success.svgz');
+            --wharton-sticky: url('../image/wharton-sticky.svgz');
+            --twit: url('../image/twit.svgz');
+            --link: url('../image/link.svgz');
+            --uci-sticky: url('../image/uci-footer.svgz');
+            --uci-sprite: url('../image/mql-sprite-uci-theme.svgz');
+            --uminn-sprite: url('../image/mql-sprite-uminn-red.svgz');
+            --spjimr-sprite: url('../image/mql-sprite-spjimr.svgz');
+            --mitxpro-sprite: url('../image/mql-sprite-mit.svgz');
+            --usc-sprite: url('../image/mql-sprite-usc-2.svgz');
+            --university-sprite: url('../image/pg-sprite.svgz');
+            --mql-caltech-success: url('../image/caltech-success.svgz');
+            --mql-sprite: url('../image/mql-sprint.svgz');
+            --b-arrow: url('../image/b-arrow.svgz');
+        }
+
+        @font-face {
+            font-family: jw-icons;
+            src: url('../fonts/jw-icons.woff') format("woff");
+        }
+
+        .jw-icon {
+            font-family: jw-icons !important;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            src: url('../fonts/Roboto-Light_v1.woff2') format('woff2'),
+                url('../fonts/Roboto-Light.woff') format('woff');
+            font-weight: 300;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            src: url('../fonts/Roboto-Bold_v1.woff2') format('woff2'),
+                url('../fonts/Roboto-Bold_v1.woff') format('woff');
+            font-weight: 700;
+            font-display: swap;
+        }

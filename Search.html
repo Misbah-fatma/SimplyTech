@@ -1,0 +1,212 @@
+
+@{
+    ViewBag.Title = "Search";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="/assets/css/search-main.css" rel="stylesheet">
+<link href="/assets/css/search-lazy.css" rel="stylesheet">
+<div class="search-info">
+    <div class="container">
+        @*<div id="searchItem" class="nav-menu nav-sticky" data-parent-dom="frm-details">
+                <div class="search-result">
+                    <form>
+                        <input type="text" id="searchpage_search" autocomplete="off" aria-label="Search" class="form-control input-search-field" name="tag" placeholder="Search from 100+ programs" value="java">
+                        <button type="submit" class="input-search-btn" title="search">
+                            <span class="search_icon input-search-icon"></span>
+                        </button>
+                    </form>
+                    <span class="mobile-filter">
+                    </span>
+                </div>
+            </div>*@
+        <div class="search-wrap frm-details" style="height:auto;overflow:hidden">
+            @*<div class="filter-wrap" id="FilterList">
+                    <div class="filter-main">
+                        <span class="close">
+                        </span>
+                        <div class="filter-list">
+                            <div class="learn-opt">
+                                <div class="top-clear">
+                                    Filters<span>Clear all</span>
+                                </div>
+                                <div class="line"></div><h3 class="learn-options"><b>Learning Options</b></h3>
+                                <ul>
+
+                                    <li>
+                                        <div class="form-checkbox">
+                                            <label class="">
+                                                <input type="checkbox" name="agree" value="university_master" data-filtertype="item_type" checked=""><span class="checkbox-material"><span class="check"></span></span>University Program
+                                                <span class="count">
+                                                    ( 1
+                                                    )
+                                                </span>
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-checkbox">
+                                            <label class="">
+                                                <input type="checkbox" name="agree" value="cohort_master,bundle" data-filtertype="item_type" checked=""><span class="checkbox-material"><span class="check"></span></span>Master's Program <span class="count">
+                                                    (
+                                                    2
+                                                    )
+                                                </span>
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-checkbox">
+                                            <label class="">
+                                                <input type="checkbox" name="agree" value="course" data-filtertype="item_type" checked=""><span class="checkbox-material"><span class="check"></span></span>Course
+                                                <span class="count">
+                                                    ( 1
+                                                    )
+                                                </span>
+                                            </label>
+                                        </div>
+                                    </li>
+                                </ul><div class="line"></div><h3><b>Categories</b></h3><ul>
+                                    <li>
+                                        <div class="form-checkbox">
+                                            <label class="">
+                                                <input type="checkbox" name="agree" value="Software Development" data-filtertype="category"><span class="checkbox-material"><span class="check"></span></span>Software Development
+                                                <span class="count">( 562 )</span>
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li><div class="form-checkbox"><label class=""><input type="checkbox" name="agree" value="Career Fast-track" data-filtertype="category"><span class="checkbox-material"><span class="check"></span></span>Career Fast-track  <span class="count">( 29 )</span></label></div></li>
+                                    <li><div class="form-checkbox"><label class=""><input type="checkbox" name="agree" value="Digital Marketing" data-filtertype="category"><span class="checkbox-material"><span class="check"></span></span>Digital Marketing  <span class="count">( 5 )</span></label></div></li>
+                                    <li><div class="form-checkbox"><label class=""><input type="checkbox" name="agree" value="IT Service and Architecture" data-filtertype="category"><span class="checkbox-material"><span class="check"></span></span>IT Service and Architecture  <span class="count">( 5 )</span></label></div></li>
+                                    <li><div class="form-checkbox"><label class=""><input type="checkbox" name="agree" value="Project Management" data-filtertype="category"><span class="checkbox-material"><span class="check"></span></span>Project Management  <span class="count">( 4 )</span></label></div></li>
+                                    <li><div class="form-checkbox"><label class=""><input type="checkbox" name="agree" value="Agile and Scrum" data-filtertype="category"><span class="checkbox-material"><span class="check"></span></span>Agile and Scrum  <span class="count">( 2 )</span></label></div></li>
+                                </ul><div class="line"></div><h3><b>Free Resources</b></h3><ul>
+                                    <li><div class="form-checkbox"><label class=""><input type="checkbox" name="agree" value="ebook,webinar,tutorial_homepage,tutorial,article"><span class="checkbox-material"><span class="check"></span></span>All <span class="count">( 820 )</span></label></div></li>
+                                    <li><div class="form-checkbox"><label class=""><input type="checkbox" name="agree" value="article" data-filtertype="item_type" checked=""><span class="checkbox-material"><span class="check"></span></span>Article  <span class="count">( 603 )</span></label></div></li>
+                                    <li><div class="form-checkbox"><label class=""><input type="checkbox" name="agree" value="ebook" data-filtertype="item_type"><span class="checkbox-material"><span class="check"></span></span>Ebook  <span class="count">( 3 )</span></label></div></li>
+                                    <li><div class="form-checkbox"><label class=""><input type="checkbox" name="agree" value="tutorial_homepage,tutorial" data-filtertype="item_type"><span class="checkbox-material"><span class="check"></span></span>Tutorial <span class="count">( 211 )</span></label></div></li>
+                                    <li>
+                                        <div class="form-checkbox">
+                                            <label class="">
+                                                <input type="checkbox" name="agree" value="webinar" data-filtertype="item_type"><span class="checkbox-material"><span class="check"></span></span>Webinar  <span class="count">
+                                                    ( 3
+                                                    )
+                                                </span>
+                                            </label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>*@
+            <div class="card-wrap" id="search-results">
+                <div class="search-program">
+                    <span>Search Results found for "@ViewBag.terms "</span><ul>
+                        <li class="list_li" style="display:@ViewBag.Course1">
+                            <a href="/DataScience.html" target="_blank">
+                                <div class="icon-card master">
+                                    <div class="prd-img">
+                                        <img data-gumlet="false" src="/assets/image/master_icon_new.svgz" alt="Full Stack Java Developer Career Bootcamp" width="16" height="9" aria-label="Full Stack Java Developer Career Bootcamp" class="gm-added" loading="lazy">
+                                    </div>
+                                    @*<span class="search-lable">Master's Program</span>*@
+                                </div><div class="card-info">
+                                    <h2>Executive Certificate Program in Data Science</h2>
+                                    <p class="disc">
+                                    <p>If youre looking to master web application development for virtually any computing platform, this </p>
+                                    </p>
+                                    <div class="learner-search">
+                                        <div class="rating pip-line">
+                                            <span class="stars">
+                                                <span class="star_in" style="width: 57.34px;"></span>
+                                            </span><span class="rating-value">4.7 (22)  </span>
+                                        </div>
+                                        <span class="prog-search pip-line">Program Duration: <b>11 months</b></span>
+                                        <span class="search-next pip-line">Next Cohort starts: <b>Aug 4, 2023</b></span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_li" style="display:@ViewBag.Course2">
+                            <a href="/DataAnalyst.html" target="_blank">
+                                <div class="icon-card master">
+                                    <div class="prd-img">
+                                        <img data-gumlet="false" src="/assets/image/master_icon_new.svgz" alt="Full Stack Java Developer Career Bootcamp" width="16" height="9" aria-label="Full Stack Java Developer Career Bootcamp" class="gm-added" loading="lazy">
+                                    </div>
+                                    @*<span class="search-lable">Master's Program</span>*@
+                                </div><div class="card-info">
+                                    <h2>Professional Certificate Course in Data analyst</h2>
+                                    <p class="disc">
+                                    <p>If youre looking to master web application development for virtually any computing platform, this  </p>
+                                    </p>
+                                    <div class="learner-search">
+                                        <div class="rating pip-line">
+                                            <span class="stars">
+                                                <span class="star_in" style="width: 57.34px;"></span>
+                                            </span><span class="rating-value">4.7 (22)  </span>
+                                        </div>
+                                        <span class="prog-search pip-line">Program Duration: <b>11 months</b></span>
+                                        <span class="search-next pip-line">Next Cohort starts: <b>Aug 4, 2023</b></span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_li" style="display:@ViewBag.Course3">
+                            <a href="/DigitalMarketing.html" target="_blank">
+                                <div class="icon-card master">
+                                    <div class="prd-img">
+                                        <img data-gumlet="false" src="/assets/image/master_icon_new.svgz" alt="Full Stack Java Developer Career Bootcamp" width="16" height="9" aria-label="Full Stack Java Developer Career Bootcamp" class="gm-added" loading="lazy">
+                                    </div>
+                                    @*<span class="search-lable">Master's Program</span>*@
+                                </div><div class="card-info">
+                                    <h2>Post Graduate Program in Digital marketing</h2>
+                                    <p class="disc">
+                                    <p>If youre looking to master web application development for virtually any computing platform, this  </p>
+                                    </p>
+                                    <div class="learner-search">
+                                        <div class="rating pip-line">
+                                            <span class="stars">
+                                                <span class="star_in" style="width: 57.34px;"></span>
+                                            </span><span class="rating-value">4.7 (22)  </span>
+                                        </div>
+                                        <span class="prog-search pip-line">Program Duration: <b>11 months</b></span>
+                                        <span class="search-next pip-line">Next Cohort starts: <b>Aug 4, 2023</b></span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_li" style="display:@ViewBag.Course4">
+                            <a href="/InvestmentBanking.html" target="_blank">
+                                <div class="icon-card master">
+                                    <div class="prd-img">
+                                        <img data-gumlet="false" src="/assets/image/master_icon_new.svgz" alt="Full Stack Java Developer Career Bootcamp" width="16" height="9" aria-label="Full Stack Java Developer Career Bootcamp" class="gm-added" loading="lazy">
+                                    </div>
+                                    @*<span class="search-lable">Master's Program</span>*@
+                                </div><div class="card-info">
+                                    <h2>
+                                         Post Graduate Program in Investment Banking
+                                    </h2>
+                                    <p class="disc">
+                                    <p>If youre looking to master web application development for virtually any computing platform, this  </p>
+                                    </p>
+                                    <div class="learner-search">
+                                        <div class="rating pip-line">
+                                            <span class="stars">
+                                                <span class="star_in" style="width: 57.34px;"></span>
+                                            </span><span class="rating-value">4.7 (22)  </span>
+                                        </div>
+                                        <span class="prog-search pip-line">Program Duration: <b>11 months</b></span>
+                                        <span class="search-next pip-line">Next Cohort starts: <b>Aug 4, 2023</b></span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <span style="display:@ViewBag.None">Your search did not match any content.</span>
+                    @*<div class="loading" id="load-more-button">
+            <a class="btn opt-btn">LOAD MORE</a>
+        </div>*@
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

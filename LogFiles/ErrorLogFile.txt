@@ -1,0 +1,9 @@
+Object reference not set to an instance of an object.
+server1
+server1
+server1
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses
+server1
+server1
+server1

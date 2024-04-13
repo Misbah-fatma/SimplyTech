@@ -1,0 +1,90 @@
+
+        @font-face {
+            font-family: 'Roboto';
+            src: url('https://www.Simplydatatech.com/ice9/assets/fonts/Roboto-Regular_v1.woff2') format('woff2'),
+                url('https://www.Simplydatatech.com/ice9/assets/fonts/Roboto-Regular_v1.woff') format('woff');
+            font-weight: 400;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            src: url('https://www.Simplydatatech.com/ice9/assets/fonts/Roboto-Medium_v1.woff2') format('woff2'),
+                url('https://www.Simplydatatech.com/ice9/assets/fonts/Roboto-Medium_v1.woff') format('woff');
+            font-weight: 500;
+            font-display: swap;
+        }
+
+
+        :root {
+            --sub-course-sprite: url('https://www.Simplydatatech.com/ice9/assets/course_sprite_7.svgz');
+            --frs-sprite: url('https://www.Simplydatatech.com/ice9/assets/frs-sprite_4.svgz');
+            --footer-sprite: url('https://www.Simplydatatech.com/ice9/assets/footer_sprite.svgz');
+            --footer-telegram-sprite: url('https://www.Simplydatatech.com/ice9/assets/telegram_logo.svgz');
+            --home-sprite-new: url('https://www.Simplydatatech.com/ice9/assets/home/sprite_v2.svgz');
+            --mql-sprite-new: url('https://www.Simplydatatech.com/ice9/assets/mql-new-sprite_4.svgz');
+            --mql-new-bg: url('https://www.Simplydatatech.com/ice9/assets/mql-new-banner_1.jpg');
+            --dm-sprite-cal: url('https://www.Simplydatatech.com/ice9/assets/mql-caltech-sprite.svgz');
+            --mql-right: url('https://www.Simplydatatech.com/ice9/assets/right-mark.png');
+            --mql-linkdin: url('https://www.Simplydatatech.com/ice9/assets/linkedin-logo.png');
+            --mql-sprite-orange: url('https://www.Simplydatatech.com/ice9/assets/mql-caltech-sprite_3.svgz');
+            --caltech-footer-bg: url('https://www.Simplydatatech.com/ice9/assets/caltech-bg-footer.png');
+            --jagsom-footer-icon: url('https://www.Simplydatatech.com/ice9/assets/chat-footer-icons_v_8.svgz');
+            --mql-purdue-sprite: url('https://www.Simplydatatech.com/ice9/assets/mql-sprite-Purdue.svgz');
+            --spj-sprite: url('https://www.Simplydatatech.com/ice9/assets/mql-sprite-sp-jain-blue.svgz');
+            --wharton-sprite: url('https://www.Simplydatatech.com/ice9/assets/wharton.svgz');
+            --dm-sprite: url('https://www.Simplydatatech.com/ice9/assets/dual-master-sprite_1.svgz');
+            --wharton-play: url('https://www.Simplydatatech.com/ice9/assets/wharton-play-icon.svgz');
+            --propelld-excla-logo: url('https://www.Simplydatatech.com/ice9/assets/exclamation-mark.svgz');
+            --subdamin-sprite: url('https://www.Simplydatatech.com/ice9/assets/MQL-Sprite-Caltech_v2.svgz');
+            --subdomain-thank-you: url('https://www.Simplydatatech.com/ice9/assets/success_anim_v2.gif');
+            --iit-mobile-banner: url('https://www.Simplydatatech.com/ice9/assets/iit_mobile_banner_v7.jpg');
+            --iitk-tab: url('https://www.Simplydatatech.com/ice9/assets/iitk_tab_v_3_2.png');
+            --home-sprite: url('https://www.Simplydatatech.com/static/frontend/images/home-page_sprite_v7.png');
+            --sub-program-fees: url('https://www.Simplydatatech.com/ice9/assets/IITK_Pricing_Banner.png');
+            --caltech-header-pattern: url('https://www.Simplydatatech.com/ice9/assets/headerpattern.svgz');
+            --mql-certificate-bg: url('https://www.Simplydatatech.com/ice9/assets/mql-certificates.jpg');
+            --bootcamp-sprite: url('https://www.Simplydatatech.com/ice9/assets/home/sprite.svgz');
+            --mql-sprite-blue: url('https://www.Simplydatatech.com/ice9/assets/mql-sprite-blue.svgz');
+            --mql-sprite-orange-black: url('https://www.Simplydatatech.com/ice9/assets/mql-sprite-orange_v2_1.svgz');
+            --umass-sprite: url('https://www.Simplydatatech.com/ice9/assets/mql-sprite-UMass-4.svgz');
+            --mql-umass-success: url('https://www.Simplydatatech.com/ice9/assets/umass-success.svgz');
+            --wharton-sticky: url('https://www.Simplydatatech.com/ice9/assets/wharton-sticky.svgz');
+            --twit: url('https://www.Simplydatatech.com/ice9/assets/twit.svgz');
+            --link: url('https://www.Simplydatatech.com/ice9/assets/link.svgz');
+            --uci-sticky: url('https://www.Simplydatatech.com/ice9/assets/uci-footer.svgz');
+            --uci-sprite: url('https://www.Simplydatatech.com/ice9/assets/mql-sprite-uci-theme.svgz');
+            --uminn-sprite: url('https://www.Simplydatatech.com/ice9/assets/mql-sprite-uminn-red.svgz');
+            --spjimr-sprite: url('https://www.Simplydatatech.com/ice9/assets/mql-sprite-spjimr.svgz');
+            --mitxpro-sprite: url('https://www.Simplydatatech.com/ice9/assets/mql-sprite-mit.svgz');
+            --usc-sprite: url('https://www.Simplydatatech.com/ice9/assets/mql-sprite-usc-2.svgz');
+            --university-sprite: url('https://www.Simplydatatech.com/ice9/assets/pg-page/pg-sprite.svgz');
+            --mql-caltech-success: url('https://www.Simplydatatech.com/ice9/assets/caltech-success.svgz');
+            --mql-sprite: url('https://www.Simplydatatech.com/ice9/assets/mql-sprint.svgz');
+            --b-arrow: url('https://www.Simplydatatech.com/ice9/assets/b-arrow.svgz');
+        }
+
+        @font-face {
+            font-family: jw-icons;
+            src: url('https://www.Simplydatatech.com/ice9/assets/fonts/jw-icons.woff') format("woff");
+        }
+
+        .jw-icon {
+            font-family: jw-icons !important;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            src: url('https://www.Simplydatatech.com/ice9/assets/fonts/Roboto-Light_v1.woff2') format('woff2'),
+                url('https://www.Simplydatatech.com/ice9/assets/fonts/Roboto-Light.woff') format('woff');
+            font-weight: 300;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            src: url('https://www.Simplydatatech.com/ice9/assets/fonts/Roboto-Bold_v1.woff2') format('woff2'),
+                url('https://www.Simplydatatech.com/ice9/assets/fonts/Roboto-Bold_v1.woff') format('woff');
+            font-weight: 700;
+            font-display: swap;
+        }

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)https://xds.gsecondscreen.com/xds2/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<script type="text/javascript">
+(function(){
+	var win = window,
+		sstore = win.sessionStorage,
+		lstore = win.localStorage;
+
+	function init(){
+		// Setup postMessage event listeners
+		if (win.addEventListener) {
+			win.addEventListener('message', onMessage, false);
+		} else if(win.attachEvent) {
+			win.attachEvent('onmessage', onMessage);
+		}
+
+		// Tell the parent window we're ready.
+		win.parent.postMessage(JSON.stringify({ready:true}),"*");
+	}
+
+	function onMessage(e){
+                try {
+		    request = JSON.parse(e.data);
+                } catch(e) {
+                    //NOTE: Assuming not from Gamooga JS and hence returning
+                    return;
+                }
+		if (request.type === "get" && request.store === "ss"){
+			respond(sget(request), e.origin);
+		} else if (request.type === "allget" && request.store === "ss") {
+			respond(sallget(request), e.origin);
+        } else if (request.type === "prefixget" && request.store === "ss") {
+            respond(sprefixget(request), e.origin);
+		} else if (request.type === "set" && request.store === "ss"){
+			respond(sset(request), e.origin);
+		} else if (request.type === "del" && request.store === "ss"){
+			respond(sdel(request), e.origin);
+		} else if (request.type === "get" && request.store === "ls"){
+			respond(lget(request), e.origin);
+		} else if (request.type === "allget" && request.store === "ls") {
+			respond(lallget(request), e.origin);
+        } else if (request.type === "prefixget" && request.store === "ls") {
+            respond(lprefixget(request), e.origin);
+		} else if (request.type === "set" && request.store === "ls"){
+			respond(lset(request), e.origin);
+		} else if (request.type === "del" && request.store === "ls"){
+			respond(ldel(request), e.origin);
+		}
+	}
+
+	function sget(request){
+		return { key: request.key, val: sstore.getItem(request.key), type: "get", _xds: request._xds };
+	}
+
+	function sallget(request) {
+		var i;
+		var s = {};
+		for (i=0;i<sstore.length;i++) {
+			var k = sstore.key(i);
+			s[k] = sstore.getItem(k);
+		}
+		return { dict: s, type: "allget", _xds: request._xds };
+	}
+
+    function sprefixget(request) {
+		var i;
+		var s = {};
+		for (i=0;i<sstore.length;i++) {
+			var k = sstore.key(i);
+            if (k.indexOf(request.prefix) == 0) {
+                s[k] = sstore.getItem(k);
+            }
+		}
+		return { dict: s, type: "prefixget", _xds: request._xds };
+    }
+	function sset(request){
+		sstore.setItem(request.key, request.val);
+		return { key: request.key, type: "set", _xds: request._xds };
+	}
+
+	function sdel(request){
+		sstore.removeItem(request.key);
+		return {key: request.key, type: "del", _xds: request._xds};
+	}
+
+	function lget(request){
+		return { key: request.key, val: lstore.getItem(request.key), type: "get", _xds: request._xds };
+	}
+
+	function lallget(request) {
+		var i;
+		var s = {};
+		for (i=0;i<lstore.length;i++) {
+			var k = lstore.key(i);
+			s[k] = lstore.getItem(k);
+		}
+		return { dict: s, type: "allget", _xds: request._xds };
+	}
+
+	function lprefixget(request) {
+		var i;
+		var s = {};
+		for (i=0;i<lstore.length;i++) {
+			var k = lstore.key(i);
+            if (k.indexOf(request.prefix) == 0) {
+                s[k] = lstore.getItem(k);
+            }
+		}
+		return { dict: s, type: "prefixget", _xds: request._xds };
+	}
+
+	function lset(request){
+		lstore.setItem(request.key, request.val);
+		return { key: request.key, type: "set", _xds: request._xds };
+	}
+
+	function ldel(request){
+		lstore.removeItem(request.key);
+		return {key: request.key, type: "del", _xds: request._xds};
+	}
+
+	function respond(response, origin){
+		win.parent.postMessage(JSON.stringify(response),"*");
+	}
+
+	init();
+})();
+		</script>
+	</head>
+<body>
+</body></html>
